@@ -12,5 +12,4 @@ selfbot.cc but with better performance &amp; made in NodeJS
 
 6. Open CMD, use **cd /path/to/the/project/folder**.
 7. use npm init -y
-8. then use **npm install** (might not install all packages)
-9. at last, use node . and  if it gives you any errors that u don't have a module / package, use npm install packagename 
+8. keep using node . and installing the modules its telling you to, for help dm me on discord cex#9999
