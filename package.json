@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "1337": "^1.0.1",
-    "ascii-art": "^2.5.0",
+    "ascii-art": "^1.4.4",
     "countdown": "^2.6.0",
     "crypto-price": "^0.0.6",
     "cat-facts": "^1.0.2",
