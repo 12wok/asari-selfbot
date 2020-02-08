@@ -12,6 +12,11 @@ module.exports = (client, msg) => {
     if(client.emotemode.get(client.user.id) && msg.author.id === client.user.id) {
         msg.react(client.emotemode.get(client.user.id))
     }
+    
+        if(client.editmode.get(client.user.id) && msg.author.id === client.user.id) {
+         msg.edit(msg.content + '​         ')
+         msg.edit(msg.content)
+    }
 
     if(client.afk.get(client.user.id) && msg.channel.type === "dm" && msg.author.id !== client.user.id) {
         msg.channel.send(client.afk.get(client.user.id))
