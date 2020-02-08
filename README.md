@@ -11,5 +11,5 @@ selfbot.cc but with better performance &amp; made in NodeJS
 5. Go back into the config.json folder and put in your token where it says tokens:, then you tokens: should look like this: **tokens: ["yourtoken.."]**, save and exit out of the folder.
 
 6. Open CMD, use **cd /path/to/the/project/folder**.
-7. use npm init -y
-8. keep using node . and installing the modules its telling you to, for help dm me on discord cex#9999
+7. Use **npm install** and it should download the packages for you.
+8. use node . in the terminal and your bot should activate.
