@@ -2,6 +2,7 @@
     "prefix": "*",
     "allowOtherPeople": false,
     "tokens": [""],
+    "cycle": "not set",
     "presets": [
         {
             "1":"not set", 
