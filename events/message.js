@@ -8,16 +8,17 @@ module.exports = (client, msg) => {
     const cmd = args.shift().toLowerCase();
     
 
-    
+
+    if(client.emotemode.get(client.user.id) && msg.author.id === client.user.id) {
+        msg.react(client.emotemode.get(client.user.id))
+    }
 
     if(client.afk.get(client.user.id) && msg.channel.type === "dm" && msg.author.id !== client.user.id) {
         msg.channel.send(client.afk.get(client.user.id))
-        return;
     }
     
     if (msg.author.id === client.copycat.get(client.user.id)) {
         msg.channel.send(msg.content)
-        return;
     } 
 
     if (msg.content.indexOf(config.prefix) !== 0) return;
