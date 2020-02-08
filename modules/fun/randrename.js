@@ -23,4 +23,5 @@ module.exports.help = {
     example:"*randrename",
     group: "fun",
     ownerOnly: true,
+    guildOnly: true,
 }

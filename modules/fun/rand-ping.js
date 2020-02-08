@@ -16,4 +16,5 @@ module.exports.help = {
     example:"*rand-ping",
     group: "fun",
     ownerOnly: true,
+    guildOnly: true,
 }

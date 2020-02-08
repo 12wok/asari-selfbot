@@ -23,4 +23,5 @@ module.exports.help = {
     example:"*rename cex is cool",
     group: "fun",
     ownerOnly: true,
+    guildOnly: true,
 }

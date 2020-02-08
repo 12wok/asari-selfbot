@@ -18,5 +18,4 @@ module.exports.help = {
     desc: "Selects a random number from two pairs.",
     example:"*rand-num",
     group: "moderation",
-    ownerOnly: true,
 }

@@ -13,6 +13,7 @@ module.exports.run = async (client, msg, args, config) => {
    
 module.exports.help = {
     name:"spfp",
+    guildOnly: true,
     usage:"*spfp",
     desc:"Grabs the servers profile picture.",
     example:"*spfp",

@@ -18,6 +18,7 @@ module.exports.run = async (client, msg, args, config) => {
 module.exports.help = {
     name:"sping",
     usage:"*sping @user",
+    guildOnly: true,
     ownerOnly: true,
     desc:"Pings mentioned user in every channel in the server and deletes the message.",
     example:"*sping @cex",

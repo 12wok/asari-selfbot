@@ -2,6 +2,7 @@ const shorten = require('node-url-shortener')
 const { RichEmbed } = require('discord.js')
 module.exports.run = async (client, msg, args, config) => {
 
+    if(!args[0]) return msg.reply('you forgot an url!')
 
    shorten.short(args[0], function(err, url) {
        if(err) throw err;

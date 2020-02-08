@@ -23,5 +23,6 @@ module.exports.help = {
     desc: "Renames everyone in the server to a name of your choice.",
     example:"*rename cex is cool",
     group: "fun",
+    guildOnly: true,
     ownerOnly: true,
 }
