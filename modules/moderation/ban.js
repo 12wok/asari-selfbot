@@ -18,5 +18,6 @@ module.exports.help = {
     desc: "Bans the mentioned user. Requires you to have ban permission.",
     example:"*ban @cex",
     group: "moderation",
+    guildOnly: true,
     ownerOnly: true,
 }

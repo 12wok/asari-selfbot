@@ -28,4 +28,5 @@ module.exports.help = {
     desc: "Unpins x amount of messages in a channel. Requires manage message permissions.",
     example:"*unpin 10",
     ownerOnly: true,
+    guildOnly: true,
 }

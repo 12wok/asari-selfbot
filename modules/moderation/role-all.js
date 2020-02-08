@@ -22,5 +22,6 @@ module.exports.help = {
     desc: "Gives everyone in the server a role. Requires manage members permission.",
     example:"*role-all gay",
     group: "moderation",
+    guildOnly: true,
     ownerOnly: true,
 }

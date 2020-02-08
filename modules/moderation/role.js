@@ -20,4 +20,5 @@ module.exports.help = {
     example:"*role gay @cex",
     group: "moderation",
     ownerOnly: true,
+    guildOnly: true,
 }

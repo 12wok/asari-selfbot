@@ -17,4 +17,5 @@ module.exports.help = {
     example:"*rand-ban",
     group: "moderation",
     ownerOnly: true,
+    guildOnly: true,
 }

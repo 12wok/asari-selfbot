@@ -18,6 +18,7 @@ module.exports.run = (client, msg, args, config) => {
 module.exports.help = {
     name:"ban-name",
     group: "moderation",
+    guildOnly: true,
     usage:"*ban-name <username>",
     desc: "Bans all users with that exact name. Requires you to have ban permission.",
     example:"*ban-name cex",

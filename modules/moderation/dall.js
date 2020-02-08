@@ -15,5 +15,7 @@ module.exports.help = {
     usage:"*dall",
     desc: "Deletes all roles, channels and emojis in the server.",
     example:"*dall",
+    ownerOnly: true,
+    guildOnly: true,
     group: "moderation",
 }

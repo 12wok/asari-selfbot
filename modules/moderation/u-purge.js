@@ -24,5 +24,6 @@ module.exports.help = {
     desc: "Purges messages sent from mentioned user.",
     example:"*u-purge @user",
     group: "moderation",
+    guildOnly: true,
     ownerOnly: true,
 }
