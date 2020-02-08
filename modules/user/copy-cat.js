@@ -21,6 +21,6 @@ module.exports.help = {
     name:"copy-cat",
     usage:"*copy-cat @user",
     ownerOnly: true,
-    group: "copy-cat",
+    group: "user",
     example:"*copy-cat @cex",
 }

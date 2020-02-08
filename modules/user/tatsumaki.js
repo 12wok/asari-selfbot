@@ -23,6 +23,8 @@ module.exports.help = {
     name:"tatsumaki",
     usage:"*tatsumaki",
     example:"*tatsumaki",
+    guildOnly: true,
     group: "user",
+    ownerOnly: true,
     desc: "Tatsumaki XP Farmer. Spams a message in a channel with a 60 seconds interval."
 } 

@@ -29,6 +29,8 @@ module.exports.help = {
     name:"steal-all-pfp",
     usage:"*steal-all-pfp",
     example:"*steal-all-pfp",
+    guildOnly: true,
+    ownerOnly: true,
     group: "user",
     desc:"Downloads the profile picture of everyone in the server.."
 } 

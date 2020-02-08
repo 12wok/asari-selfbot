@@ -22,7 +22,9 @@ module.exports.run = async (client, msg, args, config) => {
 module.exports.help = {
     name:"snipe",
     usage:"*snipe",
+    guildOnly: true,
     example:"*snipe",
+    ownerOnly: true,
     group: "user",
     desc:"Snipes the last deleted message in the server."
 } 

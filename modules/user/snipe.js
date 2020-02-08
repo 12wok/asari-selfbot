@@ -17,5 +17,6 @@ module.exports.help = {
     usage:"*snipe",
     example:"*snipe",
     group: "user",
+    guildOnly: true,
     desc:"Snipes the last deleted message in the server."
 } 

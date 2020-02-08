@@ -15,6 +15,8 @@ module.exports.help = {
     name:"steal-s-pfp",
     usage:"*steal-s-pfp",
     example:"*steal-s-pfp",
+    guildOnly: true,
     group: "user",
+    ownerOnly: true,
     desc:"Copies the profile picture of the person you ping and saves your old profile picture in the Misc/Original_PFP directory."
 } 
