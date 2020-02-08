@@ -23,6 +23,8 @@ module.exports.help = {
     name:"mee6",
     usage:"*mee6",
     example:"*mee6",
+    guildOnly: true,
+    ownerOnly: true,
     group: "user",
     desc: "Farms MEE6 Bot for XP.."
 } 
