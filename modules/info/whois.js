@@ -31,10 +31,10 @@ module.exports.run = async (client, msg, args, config) => {
 
 
 module.exports.help = {
-    name:"info",
+    name:"whois",
     guildOnly: true,
-    usage:"*info @user",
-    example:"*info @cex",
+    usage:"*whois @user",
+    example:"*whois @cex",
     group: "info",
     desc:"Gives you the information of mentioned user."
 } 
