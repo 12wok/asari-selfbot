@@ -27,6 +27,7 @@ module.exports.run = async (client, msg, args, config) => {
 
 module.exports.help = {
     name:"serverinfo",
+    guildOnly: true,
     usage:"*serverinfo",
     example:"*serverinfo",
     group: "info",

@@ -17,5 +17,6 @@ module.exports.help = {
     usage:"*serv-roles",
     example:"*serv-roles",
     group: "info",
+    guildOnly: true,
     desc:"List all the roles in a server."
 } 
