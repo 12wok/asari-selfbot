@@ -1,7 +1,7 @@
 # asari-selfbot
 selfbot.cc but with better performance &amp; made in NodeJS
 
-### For any errors message me on discord plank#2886
+### For any errors message me on discord bash#6666
 
 
 ## Installation 
